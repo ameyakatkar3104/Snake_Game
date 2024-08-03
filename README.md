@@ -2,7 +2,9 @@
 
 The Snake Game is a classic arcade game that involves a snake navigating around a grid, consuming food items to grow longer while avoiding collisions with the walls or itself. This implementation of the Snake Game in C++ uses arrays to manage the game state and provide a simple, yet effective, gaming experience.
 
+
 ##Key Features:
+
 1. **Grid-Based Gameplay:**
   -The game is played on a 2D grid represented by a 2D array. Each cell of the array can be empty, contain a part of the snake, or hold a food item.
 
@@ -23,7 +25,9 @@ The Snake Game is a classic arcade game that involves a snake navigating around 
   -The player's score is tracked based on the number of food items consumed by the snake.
 
 
+
 ##Implementation Details:
+
 1. **Grid Initialization:**
   -A 2D array is initialized to represent the game grid. Empty cells are marked with a specific character (e.g., ' '), the snake's body is marked with another character         (e.g., 'S'), and food items are marked with a different character (e.g., 'F').
 
